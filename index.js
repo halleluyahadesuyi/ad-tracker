@@ -19,28 +19,6 @@ const adData = {
     }
 }
 
-/*
-Challenge
-1. Set up a property called conversionRate to hold the percentage of 
-   clicks that resulted in someone subscribing. Set conversionRate 
-   equals to conversions/clicks * 100.
-2. Create a method called getAdvertisingChannelHtml wich returns HTML 
-   using the template string provided.
-3. Set up an instance of AdvertisingChannel for each channel and make 
-   them render their html to the page. I have grabbed the divs for
-   you!
-
-Warning: the conversion rate might be very long! Figure out how to display 
-it to 1 decimal place - feel free to use Google.
-
-Html string:
-    <div class="site-name"> **change this** </div>
-    <div>Views: **change this** </div>
-    <div>Clicks: **change this** </div>
-    <div>Conversions: **change this** </div>
-    <div>Conv. Rate: <span class="highlight"> **change this** %</span></div>   
-*/
-
 class AdvertisingChannel {
     constructor(data){
         Object.assign(this, data)
